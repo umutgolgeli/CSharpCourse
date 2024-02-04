@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String", "String\String.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{5A74F62B-72E5-4DA4-9D4D-64DF9976B565}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemoGame", "RecapDemoGame\RecapDemoGame.csproj", "{543370FC-85F7-45DA-B88B-C7EEC9D7B8E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{5A74F62B-72E5-4DA4-9D4D-64DF9976B565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A74F62B-72E5-4DA4-9D4D-64DF9976B565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A74F62B-72E5-4DA4-9D4D-64DF9976B565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543370FC-85F7-45DA-B88B-C7EEC9D7B8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543370FC-85F7-45DA-B88B-C7EEC9D7B8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543370FC-85F7-45DA-B88B-C7EEC9D7B8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543370FC-85F7-45DA-B88B-C7EEC9D7B8E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

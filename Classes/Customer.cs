@@ -8,14 +8,16 @@ namespace Classes
 {
     internal class Customer
     {
-        public string FirstName { get; set; }
+
+        private string _firstName;
+        public string FirstName { 
+            get{ return "Mr." + _firstName; } 
+            set { _firstName = value; }
+        }
         public string LastName { get; set; }
         public int Id { get; set; }
         public string City { get; set; }
 
-        public override string ToString()
-        {
-            return $"Id: {Id}, FirstName: {FirstName}, LastName: {LastName}, City: {City}";
-        }
+       
     }
 }
